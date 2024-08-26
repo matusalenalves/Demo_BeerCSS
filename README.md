@@ -1,4 +1,2 @@
-#Demonstração do BeerCSS para o ercemapi
-asdpaoskdok
-askdajksdksa
-
+# Demonstração do BeerCSS para o ercemapi
+Organizando o readme
