@@ -1,0 +1,23 @@
+
+# Logs
+logs/
+*.log
+*.txt
+
+# IDE Files
+.idea/
+.vscode/
+.idx/
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
