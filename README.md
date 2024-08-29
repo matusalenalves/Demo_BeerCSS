@@ -119,3 +119,34 @@ Você pode utilizar o BeerCSS tanto via CDN quanto via NPM, conforme descrito ab
    import "material-dynamic-colors";
    ```
    Isso permitirá que você utilize o BeerCSS e o Material Dynamic Colors diretamente no seu projeto com suporte completo ao JavaScript ES Modules.
+
+### 5. Executar o projeto
+
+Após instalar as dependências, você pode rodar o projeto localmente por meio da extensão "Live Server".
+
+Para isso, siga os passos abaixo:
+
+1. **Instale a extensão "Live Server":**
+   - Abra o Visual Studio Code.
+   - Vá até a aba de extensões (ícone de quadrados à esquerda ou pressione `Ctrl+Shift+X`).
+   - Procure por "Live Server" e instale a extensão desenvolvida por Ritwick Dey.
+
+2. **Inicie o servidor local:**
+   - Com o projeto aberto no VS Code, clique com o botão direito no arquivo `index.html` e selecione "Open with Live Server".
+   - O Live Server abrirá uma nova janela do navegador com seu projeto rodando localmente.
+
+Agora, você pode visualizar as alterações feitas no código em tempo real no navegador, sem a necessidade de recarregar manualmente a página.
+
+### 6. Personalizar o projeto
+
+Sinta-se à vontade para editar os arquivos dentro do diretório `src` para personalizar o portfólio de acordo com suas necessidades. As principais seções do site podem ser encontradas e modificadas dentro deste diretório.
+
+## Tecnologias Utilizadas
+
+- **HTML/CSS** - Estrutura e estilos básicos do portfólio.
+- **BeerCSS** - Framework CSS leve e intuitivo.
+- **Material Design** - Padrões de design para uma experiência visual consistente.
+- **Live Server** - Extensão desenvolvida por Ritwick Dey
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um pull request ou abrir uma issue para sugerir melhorias.
