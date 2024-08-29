@@ -39,7 +39,7 @@ No terminal, você pode usar o comando cd (que significa "change directory" ou "
 cd nome-da-pasta
 ```
 
-No nosso exemplo, a basta se chama **Demo_BeerCSS**, então: 
+Neste caso, a pasta se chama **Demo_BeerCSS**, então: 
 
 ```bash
 cd Demo_BeerCSS
@@ -61,7 +61,7 @@ No terminal, dentro do diretório do projeto, execute o seguinte comando:
 code .
 ```
 **Explicação:**
-**'code'**: Este comando abre o VS Code a partir do terminal.
+**'code'**: Este comando abre o VS Code a partir do terminal.    
 **'.'**: O ponto **'.'** representa o diretório atual. Assim, este comando abrirá o diretório atual (que deve ser o diretório do seu projeto) diretamente no VS Code.
 Se o comando code não funcionar, pode ser que ele não esteja configurado no seu PATH. Você pode configurá-lo facilmente:
 1. Abra o VS Code.
