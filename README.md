@@ -3,18 +3,15 @@
 Este é um projeto de uma página feito nos moldes de um portfólio de desenvolvedor. Seu propósito é demonstrar como construir páginas bonitas, responsivas e interativas com o BeerCSS de maneira ágil. Será apresentado no ERCEMAPI 2024 no dia 12 de setembro durante o minicurso "Design Web Intuitivo: Potencializando Projetos com Material Design e BeerCSS".
 
 Este é o código-fonte do meu portfólio de desenvolvedor, construído com BeerCSS e seguindo as métricas do Material Design. Este projeto é ideal para desenvolvedores que desejam criar um portfólio moderno e responsivo.
-
 ## Pré-requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/) - Um editor de código leve, mas poderoso.
 - [Git](https://git-scm.com/) - Para clonar o repositório do GitHub.
-
 ## Como utilizar este projeto
 
 Siga os passos abaixo para configurar o projeto na sua máquina:
-
 ### 1. Clonar o repositório
 
 Abra o terminal e execute o seguinte comando para clonar este repositório:
@@ -22,15 +19,12 @@ Abra o terminal e execute o seguinte comando para clonar este repositório:
 ```bash
 git clone https://github.com/matusalenalves/Demo_BeerCSS.git
 ```
-
 ### 2. Navegar até o diretório do projeto
 
 Após clonar o repositório, os arquivos do projeto estarão dentro de uma nova pasta no seu sistema. Para trabalhar com esses arquivos, você precisa "entrar" nessa pasta no terminal. Aqui está um guia passo a passo:
-
 #### 2.1. Identificar o nome do diretório (pasta): 
 
    Quando você clona um repositório, ele é baixado para uma pasta cujo nome é, por padrão, o mesmo nome do repositório no GitHub. Nesse caso, o nome do depositório no Github é **Demo_BeerCSS**, ou seja, uma nova pasta com o nome **Demo_BeerCSS** será criada na sua máquina.
-
 #### 2.2. Usar o comando 'cd': 
 
    No terminal, você pode usar o comando cd (que significa "change directory" ou "mudar de diretório") para acessar essa nova pasta. O formato básico do comando é:
@@ -52,7 +46,6 @@ Após clonar o repositório, os arquivos do projeto estarão dentro de uma nova 
    ```bash
    cd /caminho/para/sua/pasta/Demo_BeerCSS
    ```
-
 ### 3. Abrir o projeto no VS Code
 
 No terminal, dentro do diretório do projeto, execute o seguinte comando:
@@ -70,83 +63,43 @@ Se o comando code não funcionar, pode ser que ele não esteja configurado no se
 4. Pressione **Enter** para instalar o comando.
 
 Após executar o comando, o VS Code abrirá com o seu projeto carregado. No painel à esquerda, você verá a estrutura de pastas e arquivos do projeto.
-
 ### 4. Instalar dependências
 
-Você pode utilizar o BeerCSS tanto via CDN quanto via NPM, conforme descrito abaixo:
-
-#### 4.1. Uso do BeerCSS via CDN:
-
-   Se você prefere usar o BeerCSS via CDN, pode adicionar o seguinte código no arquivo HTML do seu projeto, geralmente dentro da seção `<head>`:
-
-   **Com HTML:**
-
-   ```html
-   <link href="https://cdn.jsdelivr.net/npm/beercss@3.6.13/dist/cdn/beer.min.css" rel="stylesheet" />
-   <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.6.13/dist/cdn/beer.min.js"></script>
-   <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
-   ```
-
-   **Com CSS:**
-
-   ```css
-   @import "https://cdn.jsdelivr.net/npm/beercss@3.6.13/dist/cdn/beer.min.css";
-   ```
-
-   **Com Javascript:**
-
-   ```javascript
-   import "https://cdn.jsdelivr.net/npm/beercss@3.6.13/dist/cdn/beer.min.js";
-   import "https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js";
-   ```
-
+Você pode utilizar o BeerCSS tanto via CDN quanto via NPM, neste caso utilizamos o NPM.
 #### 4.2. Instalação via NPM:
 
-   Se você preferir gerenciar as dependências do projeto via NPM, execute os seguintes comandos para instalar o BeerCSS e o Material Dynamic Colors:
+  Estamos usando o NPM para gerenciar as dependências do projeto. Para instalar as dependências, execute os seguintes comandos para instalar o BeerCSS e o Material Dynamic Colors:
 
    ```bash
-   npm i beercss
-   npm i material-dynamic-colors
+   npm i
    ```
-
-   **Importando no JavaScript:**
-
-   Após a instalação via NPM, você pode importar o BeerCSS e o Material Dynamic Colors no seu arquivo JavaScript da seguinte maneira:
-
-   ```bash
-   // Importando como window.beercss e window.materialDynamicColors
-   import "beercss";
-   import "material-dynamic-colors";
-   ```
-   Isso permitirá que você utilize o BeerCSS e o Material Dynamic Colors diretamente no seu projeto com suporte completo ao JavaScript ES Modules.
-
 ### 5. Executar o projeto
-
-Após instalar as dependências, você pode rodar o projeto localmente por meio da extensão "Live Server".
-
+Após instalar as dependências, você pode rodar o projeto localmente pelo Parcel.
 Para isso, siga os passos abaixo:
 
-1. **Instale a extensão "Live Server":**
-   - Abra o Visual Studio Code.
-   - Vá até a aba de extensões (ícone de quadrados à esquerda ou pressione `Ctrl+Shift+X`).
-   - Procure por "Live Server" e instale a extensão desenvolvida por Ritwick Dey.
+1. **Inicie o servidor local:**
+   - Com o projeto aberto no VS Code, abra o terminal e digite o seguinte comando:
 
-2. **Inicie o servidor local:**
-   - Com o projeto aberto no VS Code, clique com o botão direito no arquivo `index.html` e selecione "Open with Live Server".
-   - O Live Server abrirá uma nova janela do navegador com seu projeto rodando localmente.
+   ```bash
+   npm start
+   ```
+
+   Depois, para compilar:
+
+   ```bash
+   npm run build
+   ```
 
 Agora, você pode visualizar as alterações feitas no código em tempo real no navegador, sem a necessidade de recarregar manualmente a página.
-
 ### 6. Personalizar o projeto
 
 Sinta-se à vontade para editar os arquivos dentro do diretório `src` para personalizar o portfólio de acordo com suas necessidades. As principais seções do site podem ser encontradas e modificadas dentro deste diretório.
-
 ## Tecnologias Utilizadas
 
 - **HTML/CSS** - Estrutura e estilos básicos do portfólio.
 - **BeerCSS** - Framework CSS leve e intuitivo.
 - **Material Design** - Padrões de design para uma experiência visual consistente.
-- **Live Server** - Extensão desenvolvida por Ritwick Dey
+- **Parcel** - Bundler de aplicações web que facilita o processo de desenvolvimento, empacotamento e otimização de arquivos de código.
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar um pull request ou abrir uma issue para sugerir melhorias.

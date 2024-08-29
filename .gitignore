@@ -21,3 +21,8 @@ logs/
 *.tmp
 *.bak
 *.swp
+
+**/*.parcel-cache
+dist
+node_modules
+

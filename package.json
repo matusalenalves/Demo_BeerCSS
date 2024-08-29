@@ -1,0 +1,14 @@
+{
+  "source":"./src/index.html",
+  "scripts": {
+    "start":"parcel",
+    "build":"parcel build"
+  },
+  "dependencies": {
+    "beercss": "^3.6.13",
+    "material-dynamic-colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
