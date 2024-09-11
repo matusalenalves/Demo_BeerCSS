@@ -1,8 +1,8 @@
 # Demonstração do BeerCSS para o ERCEMAPI 2024
 
-Este é um projeto de uma página feito nos moldes de um portfólio de desenvolvedor. Seu propósito é demonstrar como construir páginas bonitas, responsivas e interativas com o BeerCSS de maneira ágil. Será apresentado no ERCEMAPI 2024 no dia 12 de setembro durante o minicurso "Design Web Intuitivo: Potencializando Projetos com Material Design e BeerCSS".
+Este é um projeto de uma página feita nos moldes de um portfólio de desenvolvedor. Seu propósito é demonstrar como construir páginas bonitas, responsivas e interativas com o BeerCSS de maneira ágil. Será apresentado no ERCEMAPI 2024 no dia 12 de setembro durante o minicurso "Design Web Intuitivo: Potencializando Projetos com Material Design e BeerCSS".
 
-Este é o código-fonte do meu portfólio de desenvolvedor, construído com BeerCSS e seguindo as métricas do Material Design. Este projeto é ideal para desenvolvedores que desejam criar um portfólio moderno e responsivo.
+Este é o código-fonte do projeto. Este projeto é ideal para desenvolvedores que desejam criar um portfólio moderno e responsivo.
 ## Pré-requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
