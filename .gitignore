@@ -9,6 +9,8 @@ logs/
 .vscode/
 .idx/
 
+index_old.html
+
 # Build artifacts
 *.jar
 *.war
